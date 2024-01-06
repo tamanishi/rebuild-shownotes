@@ -49,3 +49,8 @@ compatibility_date = "2023-12-18"
 # [[migrations]]
 # tag = "v1"
 # new_classes = ["MyDurableObject"]
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "rebuild_episodes"
+database_id = "6124876e-8064-4907-a959-2f5c09fddf13"
